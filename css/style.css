@@ -76,3 +76,31 @@ ul {
 div,p {
   margin-left: 15px;
 }
+
+#map {
+ height: 100px;
+}
+
+#wrapper {
+  width: 850px;
+  height: 600px;
+  background-color: #7E8358;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#canvas {
+  width: 700px;
+  height: 550px;
+  background-color: #ccc;
+  margin: 30px auto;
+}  
+
+#main {
+  float:left;
+  width: 30%;
+  margin: 0 3%;
+  background-color: #B8B17E;
+  margin-top: 30px;
+  border-radius: 10px;
+}

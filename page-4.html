@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Braxton Padilla Resume</title>
+  <title>Map</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,6 +11,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=News+Cycle&display=swap" rel="stylesheet">
+  <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&libraries=visualization&callback=initMap"></script>
+  <script src="js/color_script.js"></script>
 </head>
 <body>
   <header>
@@ -19,9 +21,21 @@
         <li><a href="index.html" title="samepage">Resume</a></li>
 	<li><a href="page-2.html">Anime</a></li>
 	<li><a href="page-3.html">My Father</a></li>
+		<li><a href="page-4.html">Tokyo Map</a></li>
       </ul>
     </nav>
   </header>
-  <div id="map"></div>
+  <div id="main">
+    <h2>The Imperial Palace</h2>
+	<p>The Imperial Palace in Tokyo refers to the primary residence of the Emperor of Japan. The main palace building is situated within a large park area in the Chiyoda ward of Tokyo. The palace is called the "Imperial Palace" or "Kōkyo" in Japanese.</p>
+    <h2>Tokyo Skytree</h2>
+	<p>The The Tokyo Skytree is a prominent landmark and broadcasting tower in Tokyo, Japan. It is one of the tallest structures in the world and the tallest tower in Japan. is a prominent landmark and broadcasting tower in Tokyo, Japan. It is one of the tallest structures in the world and the tallest tower in Japan.</p>
+    <h2>The Shibuya Scramble Crossing</h2>
+	<p>The Shibuya Scramble Crossing, often simply referred to as the Shibuya Crossing, is one of the busiest and most famous pedestrian crossings in the world.</p>
+ </div>
+ <div id="map"></div>
+  <div id="wrapper">
+    <div id="canvas"></div>
+  </div>
 </body>
 </html>
